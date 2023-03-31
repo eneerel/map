@@ -9,8 +9,6 @@ const restaurantRoutes = require("./Routes/restaurant");
 
 const port = 8000;
 const MONGO_URI = process.env.MONGO_URI;
-// const MONGO_URI =
-//   "mongodb+srv://azure_enerel:Enerel0523@cluster0.amsvoii.mongodb.net/azure?retryWrites=true&w=majority";
 
 app.use(cors());
 app.use(express.json());
